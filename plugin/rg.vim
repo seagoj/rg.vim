@@ -1,6 +1,6 @@
 if executable('rg')
     set grepprg=rg\ --vimgrep
-    let g:grep_cmd_opts = '--line-numbers --noheading'
+    let g:grep_cmd_opts = '--line-number --no-heading'
     let g:ag_prg='rg'
     let g:ctrlp_user_command = 'rg %s --files --color=never --glob ""'
     let g:rip_use_caching = 0
